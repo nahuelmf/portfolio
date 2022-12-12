@@ -1,0 +1,19 @@
+.skill h3 {
+	padding: 0.5rem;
+	text-align: right;
+}
+
+.skill div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill div svg {
+	padding: 0.5rem;
+	font-size: 5rem;
+}
+
+.skill div svg:hover {
+	filter: drop-shadow(0 0 2px white);
+}

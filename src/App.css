@@ -1,0 +1,37 @@
+@font-face {
+	font-family: Nerd;
+	src: url(../public/fonts/HackRegularNerdFontComplete.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Nerd;
+}
+
+body {
+	background: url('https://www.wallpapers13.com/wp-content/uploads/2019/07/Bridge-on-the-Rhine-River-Cologne-Germany-Europe-4K-Ultra-HD-Wallpaper-for-Desktop-Laptop-Tablet-Mobile-Phones-And-TV-1920x1080.jpg');
+	position: relative;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#root {
+	max-width: 1400px;
+	height: 90vh;
+	border: 3px solid rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	color: #fff;
+	display: grid;
+	grid-template-areas:
+		'asidel header asider'
+		'asidel main asider'
+		'asidel main asider'
+		'asidel main asider';
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 10rem 1fr 1fr 1fr;
+}

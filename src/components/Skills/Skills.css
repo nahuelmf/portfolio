@@ -1,0 +1,13 @@
+.section-skills {
+	padding: 1rem;
+}
+
+.section-skills h2 {
+	margin-bottom: 1rem;
+}
+
+.skills {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+}

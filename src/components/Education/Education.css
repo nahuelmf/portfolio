@@ -1,0 +1,48 @@
+.section-education {
+	padding: 1rem;
+}
+
+.linkEducation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.linkEducation a svg {
+	display: flex;
+	margin: 0.5rem;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.linkEducation a svg:hover {
+	color: rgba(255, 255, 255, 0.6);
+	cursor: pointer;
+}
+
+.education {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.4) no-repeat center/cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+a:link, a:visited, a:active{
+	text-decoration:none;
+	color: rgb(128, 11, 11);
+}
+
+button{
+	border-radius: 15px;
+	background-color: rgb(29, 29, 117);
+	height: 4rem;
+	font-size: large;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	font-style: italic;
+}
