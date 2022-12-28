@@ -11,5 +11,25 @@
 .header h1 {
 	text-align: center;
 	color: rgb(168, 118, 166);
+    font-size: 3rem;
+    overflow: hidden;
+    border-right: .15em solid orange;
+	white-space: nowrap;
+	animation: typing 1.5s steps(20, end) forwards, 
+	blinking .75s infinite ;
+}
 
+@keyframes typing{
+from { width: 0%;}
+to {width: 100%;}
+}
+
+@keyframes blinking {
+from {border-color: transparent; }
+to {border-color: orange; }
+}
+
+
+.text{
+	display: inline-block;
 }
